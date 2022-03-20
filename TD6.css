@@ -1,0 +1,29 @@
+ul li{
+    list-style-type: none;
+}
+
+
+.sous-menu1 {
+    display: none;
+    position: absolute;
+
+}
+
+.sous-menu2 {
+    display: none;
+    position: absolute;
+}
+
+.menu:hover .sous-menu1 {
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 7em;
+}
+
+.menu:hover .sous-menu2 {
+    display: block;
+    position: absolute;
+    top: 55px;
+    left: 7em;
+}
